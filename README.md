@@ -12,13 +12,13 @@ Important: Thanks to [DigitalOcean](https://www.digitalocean.com/)'s [DropletKit
 
 Add this line to your application's Gemfile:
 
-    gem 'site24x7client'
+	gem "site24x7client", :git => "https://github.com/danvideo/site24x7client"
 
 And then execute:
 
     $ bundle install
 
-Or install it as:
+Or (when added to RubyGems) install it as:
 
     $ gem install site24x7client
     
