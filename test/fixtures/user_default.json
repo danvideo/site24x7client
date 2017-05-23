@@ -1,0 +1,29 @@
+{
+  "user_role": 10,
+  "mobile_settings": {
+    "country_code": 1,
+    "mobile_number": 0
+  },
+  "user_groups": [""],
+  "alert_settings": {
+    "email_format": 0,
+    "dont_alert_on_days": [0, 1, 2, 3, 4, 5, 6],
+    "alerting_period": {
+      "start_time": "4:30",
+      "end_time": "20:15"
+    },
+    "down": [1],
+    "trouble": [1],
+    "up": [1]
+  },
+  "display_name": "",
+  "email_address": "",
+  "notify_medium": [1]
+}
+
+//   user_role: 10, # 10 is 'read-only', 0 is 'no-access'  - MANDATORY
+//   user_groups: [""], # must add user_group before create/update
+//   display_name: "Test01", # RANDOMIZE - MANDATORY
+//   email_address: "test01@example.com", # RANDOMIZE - MANDATORY
+//   notify_medium: [1] - MANDATORY
+//   alert_settings  - MANDATORY
