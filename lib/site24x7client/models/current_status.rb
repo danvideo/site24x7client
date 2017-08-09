@@ -36,7 +36,10 @@ module Site24x7client
     end
 
     def group_locations
-      groups.map{|x| x.location_status }.flatten
+      # avoid an inproperly setup monitor which has no location data breaking the map
+      groups.select{|x| !x.locations.nil? }.
+      map{|x| x.location_status }.
+      flatten
     end
 
     # ALL MONITORS OR ALL LOCATIONS (WEB + OTHERS LIKE DNS)

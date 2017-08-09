@@ -1,6 +1,11 @@
 # Site24x7client
 
-Site24x7client is an un-official [Site24x7](https://www.site24x7.com/) [API](https://www.site24x7.com/api/) Ruby client. It supports many of the major features of the API with a simple Ruby interface (for API v2).  You can set up monitors, add users, and retrieve status data easily.  <br>
+Site24x7client is an un-official [Site24x7](https://www.site24x7.com/) [API](https://www.site24x7.com/api/) Ruby client. 
+
+WRITE SOMETHING HERE ABOUT SITE24x7 and what it does
+
+
+It supports many of the major features of the API with a simple Ruby interface (for API v2).  You can set up monitors, add users, and retrieve status data easily.  <br>
 
 Note: this is v0.1.0, there are _many_ basic features left to complete (comprehensive tests, summary reports, easy to use thresholds, etc.).  Accepting PRs for needed functionality! <br>
 
